@@ -140,22 +140,20 @@ The directory structure of new project looks like this:
 ## 🚀  Quickstart
 
 ```bash
-# clone project
+# Clone project
 git clone https://github.com/ashleve/lightning-hydra-template
 cd lightning-hydra-template
 
-# [OPTIONAL] create conda environment
-conda create -n myenv python=3.9
-conda activate myenv
+# Install virtual environment
+pipenv install
 
-# install pytorch according to instructions
-# https://pytorch.org/get-started/
+# Switch to virtual environment to run commands
+pipenv shell
 
-# install requirements
-pip install -r requirements.txt
 ```
 
 Template contains example with MNIST classification.<br>
+
 When running `python src/train.py` you should see something like this:
 
 <div align="center">
